@@ -1,0 +1,39 @@
+/* Hide content blocker shield icon */
+.UrlBar-AddressField .ContentBlocker-Control {
+   display: none;
+}
+
+.UrlBar-AddressField .UrlBar-UrlFieldWrapper {
+    font-family: monospace !important;
+}
+.UrlBar-AddressField .UrlBar-UrlField {
+    font-family: monospace !important;
+}
+
+.tab.active .favicon {
+    filter: none !important;
+}
+
+/* Display both favicon and audio icon */
+#tabs-container .favicon {
+    transform: scale(1) !important;
+}
+#tabs-container .tab-audio {
+    position: unset !important;
+    order: 1;
+    display: flex;
+    width: 18px;
+}
+#tabs-container .tab-audio .audioicon {
+    transform: scale(0.8);
+    transform-origin: center;
+}
+#tabs-container .close {
+    order: 2;
+}
+
+/* Unhovered close button of inactive tabs */
+#tabs-container .tab:not(.active) .close:not(:hover) {
+    background-color: transparent;
+    opacity: 0.5;
+}
