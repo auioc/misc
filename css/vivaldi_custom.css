@@ -37,3 +37,7 @@
     background-color: transparent;
     opacity: 0.5;
 }
+
+.UrlBar-AddressField .ToolbarButton-Button[title^="Reader"] {
+    display: none;
+}
