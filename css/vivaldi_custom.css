@@ -38,6 +38,7 @@
     opacity: 0.5;
 }
 
-.UrlBar-AddressField .ToolbarButton-Button[title^="Reader"] {
+.UrlBar-AddressField .ToolbarButton-Button[title^="Reader"],
+.UrlBar-AddressField .ToolbarButton-Button[title^="阅读器视图"] {
     display: none;
 }
